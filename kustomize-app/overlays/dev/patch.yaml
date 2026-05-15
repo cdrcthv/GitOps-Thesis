@@ -10,4 +10,4 @@ spec:
         - name: kustomize-app
           env:
             - name: ENVIRONMENT
-              value: "development"
+              value: "development-v2"
