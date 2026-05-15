@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: kustomize-deployment
+  name: kustomize-app
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: kustomize-app
@@ -13,7 +13,7 @@ spec:
         app: kustomize-app
     spec:
       containers:
-        - name: nginx
+        - name: kustomize-app
           image: nginx:1.25
           ports:
             - containerPort: 80
