@@ -10,4 +10,4 @@ service:
   port: 80
 
 env:
-  ENVIRONMENT: "development"
+  ENVIRONMENT: "development-v2"
