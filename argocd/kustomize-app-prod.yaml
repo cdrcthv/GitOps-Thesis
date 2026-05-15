@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/<jouw-gebruikersnaam>/gitops-thesis
+    repoURL: https://github.com/cdrcthv/gitops-thesis
     targetRevision: HEAD
     path: kustomize-app/overlays/prod
   destination:
